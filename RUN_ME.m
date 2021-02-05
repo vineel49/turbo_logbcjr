@@ -19,7 +19,7 @@ intr_map = randperm(num_bit);
 deintr_map = deintrlv((1:num_bit),intr_map);
 
 %--------------------------------------------------------------------------
-C_Ber = 0; % channel erros
+C_Ber = 0; % channel errors
 tic()
 %--------------------------------------------------------------------------
 for frame_cnt = 1:sim_runs
